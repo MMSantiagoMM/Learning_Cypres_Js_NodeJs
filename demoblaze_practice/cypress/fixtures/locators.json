@@ -1,0 +1,7 @@
+{
+    "rightArrow" : ".carousel-control-next-icon",
+    "leftArrow" : ".carousel-control-prev-icon",
+    "firtImage" : ".carousel-item.active [src='Samsung1.jpg']",
+    "secondImage" : ".carousel-item.active [src='nexus1.jpg']",
+    "thirdImage" : ".carousel-item.active [src='iphone1.jpg']"
+}
