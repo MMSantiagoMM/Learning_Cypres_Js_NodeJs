@@ -5,7 +5,7 @@ Feature: Carousel Feature
     
   @focus
   Scenario: Swipe corousel one position to right side
-    Given Visit the DemoBlaze homepagee
+    Given Visit the DemoBlaze homepage
     When User click the right arrow
     When User click the left arrow
     Then The second image is visible

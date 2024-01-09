@@ -3,7 +3,7 @@ import CarouselPage from '../../support/pages/CarouselPage.js';
 const carouselPage = new CarouselPage();
 
 
-Given("Visit the DemoBlaze homepagee",()=>{
+Given("Visit the DemoBlaze homepage",()=>{
     cy.visit("/");
 })
 
