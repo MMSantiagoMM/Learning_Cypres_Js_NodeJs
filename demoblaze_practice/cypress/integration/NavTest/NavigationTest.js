@@ -15,6 +15,7 @@ Then('The main page is visible',()=>{
 })
 
 
+
 Given('Visit the DemoBlaze homepage',()=>{
     cy.visit('/');
 })
@@ -26,6 +27,7 @@ When('User click in the contact link',()=>{
 Then('A modal is opened in the main page',()=>{
     navBarPage.checkModalOpened();
 })
+
 
 
 Given('Visit the DemoBlaze homepage',()=>{
@@ -40,6 +42,8 @@ Then('The video can be played',()=>{
     navBarPage.checkButtonVideo();
 })
 
+
+
 Given('Visit the DemoBlaze homepage',()=>{
     cy.visit('/');
 })
@@ -52,6 +56,8 @@ Then('The place order button is desplayed',()=>{
     navBarPage.checkIsButtonDisplayed();
 })
 
+
+
 Given('Visit the DemoBlaze homepage',()=>{
     cy.visit('/');
 })
@@ -63,6 +69,8 @@ When('User click in the login link',()=>{
 Then('The login button is desplayed',()=>{
     navBarPage.checkIsLogInButtonDisplayed();
 })
+
+
 
 Given('Visit the DemoBlaze homepage',()=>{
     cy.visit('/');
