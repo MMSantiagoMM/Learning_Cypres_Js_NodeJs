@@ -25,9 +25,9 @@ Then('The phones section is visible',()=>{
 })
 
 
-Given('The user is in the main page',()=>{
-    cy.visit('/');
-})
+// Given('The user is in the main page',()=>{
+//     cy.visit('/');
+// })
 
 When('User click on monitors option',()=>{
     categoriesPage.clickMonitorsSection();
@@ -69,9 +69,9 @@ Then('The successful message is displayed',()=>{
 })
 
 
-Given('Removing element from a cart',()=>{
-    cy.visit('/');
-})
+// Given('Removing element from a cart',()=>{
+//     cy.visit('/');
+// })
 
 When('User add a product to the cart',()=>{
     categoriesPage.checkPhonesSection().click();

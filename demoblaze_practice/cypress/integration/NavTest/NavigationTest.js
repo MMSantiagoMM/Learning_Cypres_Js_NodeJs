@@ -16,9 +16,9 @@ Then('The main page is visible',()=>{
 
 
 
-Given('Visit the DemoBlaze homepage',()=>{
-    cy.visit('/');
-})
+// Given('Visit the DemoBlaze homepage',()=>{
+//     cy.visit('/');
+// })
 
 When('User click in the contact link',()=>{
     navBarPage.clickContactLink();
@@ -30,9 +30,9 @@ Then('A modal is opened in the main page',()=>{
 
 
 
-Given('Visit the DemoBlaze homepage',()=>{
-    cy.visit('/');
-})
+// Given('Visit the DemoBlaze homepage',()=>{
+//     cy.visit('/');
+// })
 
 When('User click in the about us link',()=>{
     navBarPage.clickAboutUsLink();
@@ -58,9 +58,9 @@ Then('The place order button is desplayed',()=>{
 
 
 
-Given('Visit the DemoBlaze homepage',()=>{
-    cy.visit('/');
-})
+// Given('Visit the DemoBlaze homepage',()=>{
+//     cy.visit('/');
+// })
 
 When('User click in the login link',()=>{
     navBarPage.clickLogInLink();
@@ -72,9 +72,9 @@ Then('The login button is desplayed',()=>{
 
 
 
-Given('Visit the DemoBlaze homepage',()=>{
-    cy.visit('/');
-})
+// Given('Visit the DemoBlaze homepage',()=>{
+//     cy.visit('/');
+// })
 
 When('User click in the sign up link',()=>{
     navBarPage.clickSignUpLink();

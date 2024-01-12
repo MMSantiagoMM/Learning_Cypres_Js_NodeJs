@@ -3,7 +3,7 @@ import CarouselPage from '../../support/pages/CarouselPage.js';
 const carouselPage = new CarouselPage();
 
 
-Given("Visit the DemoBlaze homepage",()=>{
+Given("I am in the DemoBlaze homepage",()=>{
     cy.visit("/");
 })
 
@@ -22,9 +22,9 @@ Then("The second image is visible",()=>{
 })
 
 
-Given("I am in the DemoBlaze homepage",()=>{
-    cy.visit("/");
-})
+// Given("I am in the DemoBlaze homepage",()=>{
+//     cy.visit("/");
+// })
 
 When("User click twice to the right arrow",()=>{
     carouselPage.clickRightArrow();
@@ -37,9 +37,9 @@ Then("The third image is visible",()=>{
 })
 
 
-Given("I am in the DemoBlaze homepage",()=>{
-    cy.visit("/");
-})
+// Given("I am in the DemoBlaze homepage",()=>{
+//     cy.visit("/");
+// })
 
 When("User check the status code",()=>{
     carouselPage.checkStatusCode();
