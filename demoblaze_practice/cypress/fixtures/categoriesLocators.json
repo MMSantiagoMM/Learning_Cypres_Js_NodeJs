@@ -1,0 +1,32 @@
+{
+    "laptopsOption" : "[onclick=\"byCat('notebook')\"]",
+    "laptopSony" : "[class='card-title'] [href='prod.html?idp_=8']",
+    "monitorsOption" : "[onclick=\"byCat('monitor')\"]",
+    "appleMonitor" : "[class='card-title'] [href='prod.html?idp_=10']",
+    "phonesOption" : "[onclick=\"byCat('phone')\"]",
+    "phoneSamsung" : "[class='card-title'] [href='prod.html?idp_=1']",
+    "addToCartButton" : ".btn.btn-success.btn-lg",
+    "cartLink" : "#cartur",
+    "buttonPlaceOrder" : ".btn.btn-success",
+    "nameFieldForm" : "#name",
+    "countryFieldForm" : "#country",
+    "cityFieldForm" : "#city",
+    "creditCard" : "#card",
+    "monthFieldForm" : "#month",
+    "yearFieldForm" :"#year",
+    "purchaseButton" :"[onclick='purchaseOrder()']",
+    "successfulLogo" : ".sa-placeholder",
+    "deleteProductLink" : "td>a",
+    "priceProductCart" : ".panel-title",
+
+    "laptopSonyName" : "Sony vaio i5",
+    "monitorAppleName" : "Apple monitor 24",
+    "phoneSamsungName" : "Samsung galaxy s6",
+
+    "nameInForm" : "Ximena Smith",
+    "countryInForm" : "Brazil",
+    "cityInForm" : "Rio de Janeiro",
+    "creditCardInForm" : "dsjdkw324dd303493",
+    "monthInForm" : "October",
+    "yearInForm" : 2024
+}

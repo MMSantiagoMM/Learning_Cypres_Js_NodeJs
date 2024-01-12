@@ -1,0 +1,14 @@
+{
+    "homeNavBar" : "[class='nav-link'][href='index.html']",
+    "contactNavBar" : "[data-target='#exampleModal']",
+    "modalContac" : ".modal-open",
+    "nameBrand" : "[id='nava']",
+    "aboutUsNavBar" : "[data-target='#videoModal']",
+    "buttonVideoAboutUs" : ".vjs-big-play-button",
+    "cartLink" : "#cartur",
+    "buttonPlaceOrder" : ".btn.btn-success",
+    "logInNavBar" :"#login2",
+    "logInButton" : "[onclick='logIn()']",
+    "signNavBar" : "#signin2",
+    "signUpButton" : "[onclick='register()']"
+}

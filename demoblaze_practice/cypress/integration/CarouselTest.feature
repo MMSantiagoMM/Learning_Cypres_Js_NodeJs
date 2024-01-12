@@ -5,7 +5,7 @@ Feature: Carousel Feature
   Background: Being in the main page
     Given I am in the DemoBlaze homepage
     
-  @focus
+  @smoke
   Scenario: Swipe corousel one position to right side
     #Given I am in the DemoBlaze homepage
     When User click the right arrow
@@ -13,13 +13,13 @@ Feature: Carousel Feature
     Then The second image is visible
   
 
-  @focus
+  @smoke
   Scenario: Swipe corousel another position to the right side
     #Given I am in the DemoBlaze homepage
     When User click twice to the right arrow
     Then The third image is visible
   
-  @focus
+  @smoke
   Scenario: Swipe carousel to first position
     #Given I am in the DemoBlaze homepage
     When User check the status code

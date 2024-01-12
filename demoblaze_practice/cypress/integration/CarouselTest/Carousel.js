@@ -1,7 +1,10 @@
-import {Given,When,Then} from "cypress-cucumber-preprocessor/steps"
+import {Given,When,Then, Before} from "cypress-cucumber-preprocessor/steps"
 import CarouselPage from '../../support/pages/CarouselPage.js';
 const carouselPage = new CarouselPage();
 
+Before(()=>{
+    carouselPage.checkStatusCode();
+})
 
 Given("I am in the DemoBlaze homepage",()=>{
     cy.visit("/");
@@ -12,13 +15,13 @@ When("User click the right arrow",()=>{
 })
 
 When("User click the left arrow",()=>{
-    cy.wait(2000);
+    
     carouselPage.clickLeftArrow();
 })
 
 Then("The second image is visible",()=>{
-    carouselPage.isVisibleSecondImage();
-    carouselPage.isNotVisibleFirstImage();
+    carouselPage.checkSecondImageVisible();
+    
 })
 
 
@@ -27,9 +30,7 @@ Then("The second image is visible",()=>{
 // })
 
 When("User click twice to the right arrow",()=>{
-    carouselPage.clickRightArrow();
-    cy.wait(1000);
-    carouselPage.clickRightArrow();
+    carouselPage.clickTwiceRighArrow();
 })
 
 Then("The third image is visible",()=>{
@@ -46,13 +47,7 @@ When("User check the status code",()=>{
 })
 
 When("User click twice to the left arrow",()=>{
-    carouselPage.clickRightArrow();
-    cy.wait(1000);
-    carouselPage.clickRightArrow();
-    cy.wait(1000);
-    carouselPage.clickLeftArrow();
-    cy.wait(1000);
-    carouselPage.clickLeftArrow();
+    carouselPage.clickTwiceRighAndTwiceLeftArrow();
 })
 
 Then("The first image is visible",()=>{
