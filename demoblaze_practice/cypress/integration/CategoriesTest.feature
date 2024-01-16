@@ -6,7 +6,7 @@ the products, like a select product, add product to the cart, buying cart and re
 Background: Being in the main page
     Given The user is in the main page
 
-    @focus
+    @full-regression
 Scenario: Navigate among different categories in the categories section
     #Given The user is in the main page
     When User click on laptop option
@@ -14,7 +14,7 @@ Scenario: Navigate among different categories in the categories section
     When User click in the phones section
     Then The phones section is visible
 
-    @focus
+    @smoke
 Scenario: Buying a product
     #Given The user is in the main page
     When User click on monitors option
@@ -26,7 +26,7 @@ Scenario: Buying a product
     When User click purchase button to finish the order
     Then The successful message is displayed
 
-    @sanity
+    @smoke
 Scenario: Removing element from a cart
     #Given The user is in the main page
     When User add a product to the cart

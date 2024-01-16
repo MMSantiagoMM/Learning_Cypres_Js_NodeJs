@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "smoke" : "./node_modules/.bin/cypress-tags run --browser=chrome --headed -e TAGS= \"@smoke\"",
+    "regression" : "./node_modules/.bin/cypress-tags run --browser=chrome --headed -e TAGS= \"@regression\"",
+    "full-regression" : "./node_modules/.bin/cypress-tags run --browser=chrome --headed -e TAGS= \"@full-regression\"",
+    "ui" : "./node_modules/.bin/cypress-tags run --browser=chrome --headed -e TAGS= \"@ui\""
+
+    
   },
   "keywords": [],
   "author": "",
